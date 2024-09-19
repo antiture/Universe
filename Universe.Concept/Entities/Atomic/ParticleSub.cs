@@ -12,12 +12,9 @@ public abstract class ParticleSub : Entity
     public ParticleSub(string name, double chargeValue, double massValue) : base(name)
     {
         _name = name; // 设置名称
-                      // 初始化 Charge 和 Mass，并设置它们的标准值
-        Charge = new Charge();
-        Charge.UnitStandard = new Unit("Coulomb", "C", chargeValue);
-
-        Mass = new Mass();
-        Mass.UnitStandard = new Unit("Kilogram", "kg", massValue);
+                      // 直接通过构造函数传递值，简化代码
+        Charge = new Charge(chargeValue, UnitCharge.C);
+        Mass = new Mass(massValue, UnitMass.kg);
 
         // 将它们添加到 ListDimension
         AddDimension(Charge);

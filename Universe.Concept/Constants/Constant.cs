@@ -1,10 +1,24 @@
 ﻿
 namespace Universe.Concept.Constants;
 
-public static class Constant
-{
-    public const double SpeedOfLight = 299792458; // 光速，单位：米/秒
-    public const double PlanckConstant = 6.62607015e-34; // 普朗克常数，单位：焦耳·秒
-    public const double GravitationalConstant = 6.67430e-11; // 引力常数，单位：m^3 kg^(-1) s^(-2)
-    public const double ElectronMass = 9.10938356e-31; // 电子质量，单位：千克
-}
+//public static class Constant
+//{
+//    public static class Mass
+//    {
+//        public const double Neutron = 1.67492749804e-27; // 千克
+//        public const double Proton = 1.67262192369e-27;  // 千克
+//        public const double Electron = 9.1093837015e-31; // 千克
+//    }
+
+//    public static class Charge
+//    {
+//        public const double Electron = -1.602176634e-19; // 库仑
+//        public const double Proton = 1.602176634e-19;    // 库仑
+//    }
+
+//    public static class Length
+//    {
+//        public const double Planck = 1.616255e-35; // 米
+//    }
+//}
+
