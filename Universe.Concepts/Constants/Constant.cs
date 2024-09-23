@@ -1,5 +1,5 @@
 ﻿
-namespace Universe.Concept.Constants;
+namespace Universe.Concepts.Constants;
 
 //public static class Constant
 //{

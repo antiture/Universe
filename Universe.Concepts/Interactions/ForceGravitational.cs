@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Universe.Concept.Interactions
+namespace Universe.Concepts.Interactions
 {
     public class ForceGravitational : Force
     {

@@ -1,6 +1,6 @@
 ﻿ 
 
-namespace Universe.Concept.Entities;
+namespace Universe.Concepts.Entities;
 
 public abstract class Entity
 {
@@ -34,7 +34,7 @@ public abstract class Entity
         List<string> descriptions = new List<string>();
         foreach (var dimension in ListDimension)
         {
-            descriptions.Add($"{dimension.Name}: {dimension.GetDescription()} (Standard Unit: {dimension.UnitStandard.Symbol})");
+            descriptions.Add($"{dimension.Name}:  (Standard Unit: {dimension.UnitStandard.Symbol})");
         }
         return string.Join("\n", descriptions);
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Universe.Concept.Interactions
+namespace Universe.Concepts.Interactions
 {
     public class ForceStrong : Force
     {
@@ -24,7 +24,8 @@ namespace Universe.Concept.Interactions
 
         public override double CalculateForce()
         {
-            return StrongCouplingConstant * (ColorCharge1 * ColorCharge2) / Distance;
+            //return StrongCouplingConstant * (ColorCharge1 * ColorCharge2) / Distance;
+            return ColorCharge1;
         }
     }
 

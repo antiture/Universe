@@ -1,6 +1,6 @@
 ﻿ 
 
-namespace Universe.Concept.Entities.Quan;
+namespace Universe.Concepts.Entities.Quan;
 
 internal class Lepton
 {

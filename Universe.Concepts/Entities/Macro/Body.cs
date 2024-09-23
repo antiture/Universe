@@ -2,7 +2,7 @@
 
 
 
-namespace Universe.Concept.Entities.Macro
+namespace Universe.Concepts.Entities.Macro
 {
     public abstract class Body : Entity
     {

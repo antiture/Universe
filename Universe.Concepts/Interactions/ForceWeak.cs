@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Universe.Concept.Interactions
+namespace Universe.Concepts.Interactions
 {
     public class ForceWeak : Force
     {
@@ -24,7 +24,8 @@ namespace Universe.Concept.Interactions
 
         public override double CalculateForce()
         {
-            return WeakCouplingConstant * (WeakCharge1 * WeakCharge2) / (Distance * Distance);
+            //return WeakCouplingConstant * (WeakCharge1 * WeakCharge2) / (Distance * Distance);
+            return (double)WeakCharge1;
         }
     }
 
